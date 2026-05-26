@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --font-heading: 'Helvetica Now Display Bold', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --color-text: #192837;
+  --color-accent: #7342E2;
+  --color-login-bg: #F2F2EE;
+}
+
+@theme {
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-heading);
+  --color-accent: var(--color-accent);
+  --color-text-main: var(--color-text);
+  --color-login-bg: var(--color-login-bg);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: #fff;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
