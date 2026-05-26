@@ -10,6 +10,13 @@ import {
   ExternalLink
 } from 'lucide-react'
 
+// Immediate redirect check for slug paths
+const slugMatch = window.location.pathname.match(/^\/([a-z0-9\-]+)$/i)
+if (slugMatch) {
+  const slug = slugMatch[1]
+  window.location.replace(`https://url-shortener.hakimnoralahyadi.workers.dev/${slug}`)
+}
+
 const API = 'https://url-shortener.hakimnoralahyadi.workers.dev'
 
 const fadeUp: Variants = {
