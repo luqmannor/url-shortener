@@ -17,7 +17,7 @@ if (slugMatch) {
   window.location.replace(`https://url-shortener.hakimnoralahyadi.workers.dev/${slug}`)
 }
 
-const API = 'https://url-shortener.hakimnoralahyadi.workers.dev'
+const API = ''
 
 const fadeUp: Variants = {
   hidden: { opacity: 0, y: 15 },
