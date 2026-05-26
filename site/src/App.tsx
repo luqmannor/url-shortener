@@ -167,7 +167,7 @@ function App() {
               <Link2 className="w-8 h-8 text-[#7342E2]" />
               <span>go/</span>
             </h1>
-            <p className="text-white/60 text-sm mt-1">go.luqmannor.com — URL Shortener</p>
+            <p className="text-white/60 text-sm mt-1">go.luqmannor.com | URL Shortener</p>
           </div>
           {token && (
             <button
