@@ -152,8 +152,8 @@ function App() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover -z-10"
       >
-        <source src="/0527.mov" type="video/quicktime" />
-        <source src="/0527.mov" type="video/mp4" />
+        <source src="https://url-shortener-8uj.pages.dev/0527.mov" type="video/quicktime" />
+        <source src="https://url-shortener-8uj.pages.dev/0527.mov" type="video/mp4" />
       </video>
       <div className="absolute inset-0 bg-[#070708]/65 backdrop-blur-[3px] -z-10" />
 
